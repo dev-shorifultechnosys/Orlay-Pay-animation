@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orlay Pay | Sales Continuity for High-Traffic Live Events</title>
+  <meta name="description" content="Orlay Pay helps organizers, venues, and food & beverage operators streamline ordering, collection, and pickup for high-traffic live events.">
+  <meta name="theme-color" content="#26b3e6">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-orb" id="cursorOrb" aria-hidden="true"></div>
+
+  <header class="site-header fixed-top" id="siteHeader">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#hero" aria-label="Orlay Pay homepage">
+          <img src="assets/orlay-logo.png" alt="Orlay Pay" class="brand-logo">
+        </a>
+
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-line"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#problem">Problem</a></li>
+            <li class="nav-item"><a class="nav-link" href="#solution">Solution</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#console">Console</a></li>
+            <li class="nav-item"><a class="nav-link" href="#map">Map</a></li>
+            <li class="nav-item"><a class="nav-link" href="#analytics">Analytics</a></li>
+            <li class="nav-item ms-lg-2"><a class="btn btn-primary nav-cta magnetic" href="#demo">Request a demo</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="hero" class="hero-section" data-section-theme="light">
+      <div class="orb orb-one" data-parallax data-speed="0.08"></div>
+      <div class="orb orb-two" data-parallax data-speed="-0.05"></div>
+
+      <div class="container">
+        <div class="row align-items-center gy-5 gx-lg-5">
+          <div class="col-lg-6">
+            <div class="eyebrow reveal">Sales continuity for high-traffic live events</div>
+            <h1 class="hero-title split-reveal">The audience is already there. <span>Don't lose sales at peak times.</span></h1>
+            <p class="hero-copy reveal delay-2">
+              Orlay Pay helps organizers, venues, and food &amp; beverage operators streamline ordering, collection, and pickup: fewer lines, fewer cancellations, more operational control.
+            </p>
+            <div class="hero-actions reveal delay-3">
+              <a href="#demo" class="btn btn-primary btn-lg magnetic">Request a demo</a>
+            </div>
+            <p class="micro-copy reveal delay-4">Food &amp; beverage · Hospitality · VIP areas · Bar areas · Merchandising</p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-console-wrap reveal delay-2" data-parallax data-speed="0.04">
+              <div class="floating-chip chip-left floaty">
+                <small>Peak window</small>
+                <strong>20:45 — 22:10</strong>
+              </div>
+
+              <div class="floating-chip chip-right floaty delayed">
+                <small>Live status</small>
+                <strong>Operational</strong>
+              </div>
+
+              <div class="product-console hero-console">
+                <div class="window-bar">
+                  <div class="window-dots"><i></i><i></i><i></i></div>
+                  <span>Organizer console</span>
+                  <b class="live-indicator"><i></i> Live</b>
+                </div>
+
+                <div class="console-inner">
+                  <aside class="console-side">
+                    <img src="assets/orlay-icon.png" alt="" class="console-logo">
+                    <i class="active"></i><i></i><i></i><i></i><i></i>
+                  </aside>
+
+                  <div class="console-content">
+                    <div class="console-topline">
+                      <div>
+                        <small>Summer Festival 2026</small>
+                        <strong>Operational overview</strong>
+                      </div>
+                      <span>Updated now</span>
+                    </div>
+
+                    <div class="kpi-grid">
+                      <div class="kpi-card accent card-rise">
+                        <small>Revenue</small>
+                        <strong>€128.5k</strong>
+                        <span>+18.4% this hour</span>
+                      </div>
+                      <div class="kpi-card card-rise">
+                        <small>Orders</small>
+                        <strong>2,734</strong>
+                        <span>+22.3% live</span>
+                      </div>
+                      <div class="kpi-card card-rise">
+                        <small>Average ticket</small>
+                        <strong>€12.80</strong>
+                        <span>+4.7% today</span>
+                      </div>
+                    </div>
+
+                    <div class="dashboard-grid">
+                      <div class="graph-card">
+                        <div class="panel-title"><h3>Live sales trend</h3><span>Today</span></div>
+                        <svg class="line-chart hero-chart" viewBox="0 0 640 260" role="img" aria-label="Live sales trend chart">
+                          <path class="chart-grid" d="M28 40H610M28 100H610M28 160H610M28 220H610"></path>
+                          <path class="chart-fill" d="M30 222 C95 170, 142 184, 190 140 C248 88, 294 118, 350 76 C410 30, 462 78, 520 48 C560 26, 586 42, 610 28 L610 238 L30 238 Z"></path>
+                          <path class="chart-line soft-line" d="M30 228 C95 195, 142 202, 190 166 C248 132, 294 150, 350 116 C410 78, 462 102, 520 82 C560 60, 586 70, 610 56"></path>
+                          <path class="chart-line main-line" d="M30 222 C95 170, 142 184, 190 140 C248 88, 294 118, 350 76 C410 30, 462 78, 520 48 C560 26, 586 42, 610 28"></path>
+                        </svg>
+                      </div>
+
+                      <div class="service-card">
+                        <div class="panel-title"><h3>Service points</h3><span>Status</span></div>
+                        <div class="service-row"><span>Food Court A</span><b class="good">Optimal</b></div>
+                        <div class="service-row"><span>Bar Central</span><b class="busy">Busy</b></div>
+                        <div class="service-row"><span>VIP Lounge</span><b class="good">+12%</b></div>
+                        <div class="service-row"><span>Merch Store</span><b class="good">+9%</b></div>
+                      </div>
+                    </div>
+
+                    <div class="status-dots" aria-label="Event status indicators">
+                      <i></i><i></i><i></i><i class="yellow"></i><i></i><i></i><i></i><i></i><i class="yellow"></i><i></i><i></i><i></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem -->
+    <section id="problem" class="section section-soft">
+      <div class="container">
+        <div class="section-head text-center mx-auto reveal">
+          <div class="eyebrow">The problem</div>
+          <h2 class="split-reveal">The sale is lost before payment.</h2>
+          <p>When attendance increases, the service point becomes the bottleneck: the audience waits, orders less, or gives up. The staff manages confusion instead of serving. The organizer sees the data only when it's too late.</p>
+        </div>
+
+        <div class="row g-4 mt-2 stagger-group">
+          <div class="col-md-4">
+            <article class="info-card reveal">
+              <div class="info-icon">≋</div>
+              <h3>Queues and double wait</h3>
+              <p>The fan wastes time choosing, paying, and picking up.</p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="info-card reveal">
+              <div class="info-icon">⚙</div>
+              <h3>Staff under pressure</h3>
+              <p>The counter slows down when it has to reconstruct orders, amounts, and next steps.</p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="info-card reveal">
+              <div class="info-icon">▦</div>
+              <h3>Fragmented data</h3>
+              <p>At the end of the event, it's difficult to understand where demand has been lost.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section id="solution" class="section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <div class="eyebrow reveal">The solution</div>
+            <h2 class="split-reveal">A single control system to transform service into revenue.</h2>
+            <p class="section-copy reveal delay-2">Orlay Pay makes the fan's journey more understandable, the staff's work faster, and the organizer's control clearer. The result is a more orderly event at critical moments.</p>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="row g-3 stagger-group">
+              <div class="col-sm-6">
+                <article class="benefit-card reveal">
+                  <div class="benefit-icon">✓</div>
+                  <h3>More orders completed</h3>
+                  <p>Especially during peak demand windows.</p>
+                </article>
+              </div>
+              <div class="col-sm-6">
+                <article class="benefit-card reveal">
+                  <div class="benefit-icon">↗</div>
+                  <h3>Faster counter speed</h3>
+                  <p>Fewer manual steps, fewer errors, less improvisation.</p>
+                </article>
+              </div>
+              <div class="col-sm-6">
+                <article class="benefit-card reveal">
+                  <div class="benefit-icon">◎</div>
+                  <h3>More control by area</h3>
+                  <p>Orders, receipts, pick-ups, and performances can be read by area.</p>
+                </article>
+              </div>
+              <div class="col-sm-6">
+                <article class="benefit-card reveal">
+                  <div class="benefit-icon">◆</div>
+                  <h3>More post-event value</h3>
+                  <p>Useful data for deciding on pricing, staffing, and subsequent layout.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll animated story -->
+    <section id="experience" class="story-section">
+      <div class="container">
+        <div class="story-head text-center mx-auto reveal">
+          <div class="eyebrow">Animated event flow</div>
+          <h2 class="split-reveal">From confusion to control, one scroll at a time.</h2>
+          <p>As the event gets busier, Orlay Pay keeps the order, payment, pickup, map, and live control layer moving together.</p>
+        </div>
+
+        <div class="story-grid">
+          <div class="story-copy">
+            <article class="story-step active" data-story="orders">
+              <span>01</span>
+              <h3>Orders become easier to complete.</h3>
+              <p>The fan sees the path, chooses faster, and avoids the double wait that slows service points.</p>
+            </article>
+
+            <article class="story-step" data-story="counter">
+              <span>02</span>
+              <h3>The counter gets faster.</h3>
+              <p>Staff members receive clearer order status and next actions instead of reconstructing every step manually.</p>
+            </article>
+
+            <article class="story-step" data-story="areas">
+              <span>03</span>
+              <h3>Critical areas stay visible.</h3>
+              <p>Organizers understand where demand is growing, where queues appear, and where staff should react.</p>
+            </article>
+
+            <article class="story-step" data-story="value">
+              <span>04</span>
+              <h3>The evening becomes data for the next event.</h3>
+              <p>Performance by area, peak windows, and product mix become operational evidence instead of guesswork.</p>
+            </article>
+          </div>
+
+          <div class="story-visual-wrap">
+            <div class="story-visual">
+              <div class="visual-card active" data-visual="orders">
+                <div class="phone-mock">
+                  <div class="phone-top"></div>
+                  <div class="phone-row wide"></div>
+                  <div class="phone-row"></div>
+                  <div class="phone-menu">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="phone-button"></div>
+                </div>
+                <div class="mini-flow">
+                  <span>Order</span><i></i><span>Payment</span><i></i><span>Pickup</span>
+                </div>
+              </div>
+
+              <div class="visual-card" data-visual="counter">
+                <div class="counter-board">
+                  <div class="counter-ticket done">#2484</div>
+                  <div class="counter-ticket">#2485</div>
+                  <div class="counter-ticket active">#2486</div>
+                  <div class="counter-ticket">#2487</div>
+                </div>
+                <div class="speed-meter"><i></i></div>
+              </div>
+
+              <div class="visual-card" data-visual="areas">
+                <div class="mini-map">
+                  <span class="m-food">Food</span>
+                  <span class="m-vip">VIP</span>
+                  <span class="m-bar">Bar</span>
+                  <span class="m-pickup">Pickup</span>
+                  <i class="m-pin p1"></i><i class="m-pin p2"></i><i class="m-pin p3"></i>
+                </div>
+              </div>
+
+              <div class="visual-card" data-visual="value">
+                <div class="analytics-mini">
+                  <div style="height:42%"></div>
+                  <div style="height:70%"></div>
+                  <div style="height:88%"></div>
+                  <div style="height:60%"></div>
+                  <div style="height:48%"></div>
+                </div>
+                <div class="insight-list">
+                  <span>Peak window found</span>
+                  <span>Area performance clear</span>
+                  <span>Next layout improved</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Console -->
+    <section id="console" class="section section-console">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <div class="eyebrow reveal">Screen 1: Organizer Console</div>
+            <h2 class="split-reveal">Live event control.</h2>
+            <p class="section-copy reveal delay-2">Monitor orders, collections, pickups, service points, and critical areas from a single operational view.</p>
+            <p class="section-caption reveal delay-3">Understand where demand is growing, where service is slowing, and what to fix during the event.</p>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="product-console console-screen reveal delay-2">
+              <div class="window-bar">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <span>Orlay Pay Dashboard</span>
+                <b class="live-indicator"><i></i> Updated now</b>
+              </div>
+
+              <div class="console-screen-body">
+                <div class="screen-kpis stagger-lite">
+                  <div><small>Revenue</small><strong>€128.4k</strong></div>
+                  <div><small>Orders</small><strong>2,917</strong></div>
+                  <div><small>Pickups</small><strong>1,802</strong></div>
+                  <div><small>Area efficiency</small><strong>97.2%</strong></div>
+                </div>
+
+                <div class="screen-grid">
+                  <div class="graph-card">
+                    <div class="panel-title"><h3>Demand trend</h3><span>Last 6 hours</span></div>
+                    <svg class="line-chart screen-chart" viewBox="0 0 640 260" role="img" aria-label="Demand trend chart">
+                      <path class="chart-grid" d="M28 40H610M28 100H610M28 160H610M28 220H610"></path>
+                      <path class="chart-line soft-line" d="M30 224 C90 194, 140 202, 200 166 C265 126, 314 146, 378 112 C440 78, 486 100, 540 78 C578 60, 598 66, 610 56"></path>
+                      <path class="chart-line main-line" d="M30 218 C90 178, 140 186, 200 146 C265 96, 314 122, 378 76 C440 34, 486 70, 540 46 C578 25, 598 35, 610 28"></path>
+                    </svg>
+                  </div>
+
+                  <div class="performance-card">
+                    <div class="panel-title"><h3>Performance by area</h3><span>Realtime</span></div>
+                    <div class="bar-row"><label>Food Court A</label><span><i style="width:92%"></i></span></div>
+                    <div class="bar-row"><label>Bar Central</label><span><i style="width:66%"></i></span></div>
+                    <div class="bar-row"><label>VIP Lounge</label><span><i style="width:84%"></i></span></div>
+                    <div class="bar-row"><label>Pickup East</label><span><i style="width:74%"></i></span></div>
+                    <div class="bar-row"><label>Merch Store</label><span><i style="width:58%"></i></span></div>
+                  </div>
+                </div>
+
+                <div class="event-health">
+                  <span>Area status</span>
+                  <div><i></i><i></i><i></i><i class="yellow"></i><i></i><i></i><i></i><i class="red"></i><i></i><i></i><i class="yellow"></i><i></i></div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="map" class="section section-soft">
+      <div class="container">
+        <div class="row align-items-center g-5 flex-lg-row-reverse">
+          <div class="col-lg-5">
+            <div class="eyebrow reveal">Screen 2: Map, Areas, and Routes</div>
+            <h2 class="split-reveal">The event becomes more readable.</h2>
+            <p class="section-copy reveal delay-2">Maps, information, and routes help the public understand where to go and reduce repetitive questions to staff.</p>
+            <p class="section-caption reveal delay-3">Useful for food courts, bars, hospitality, VIP, merch, and dedicated pickup points.</p>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="map-product-card reveal delay-2">
+              <div class="map-topbar">
+                <div class="map-title-wrap">
+                  <div class="map-app-logo">
+                    <img src="assets/orlay-icon.png" alt="">
+                  </div>
+                  <div>
+                    <strong>Event map</strong>
+                    <small>Arena Live 2026 · 25 May 2026</small>
+                  </div>
+                </div>
+                <div class="map-controls">
+                  <span>Overview</span>
+                  <button type="button" aria-label="Zoom in">+</button>
+                  <button type="button" aria-label="Fit view">⤢</button>
+                </div>
+              </div>
+
+              <div class="map-layout">
+                <aside class="map-tools" aria-label="Map tools">
+                  <span class="active"></span><span></span><span></span><span></span><span></span><span></span>
+                </aside>
+
+                <div class="map-board" aria-label="Event map preview">
+                  <div class="dot-pattern pattern-a"></div>
+                  <div class="dot-pattern pattern-b"></div>
+
+                  <div class="map-zone zone-food"><span>Food Court</span></div>
+                  <div class="map-zone zone-bar"><span>Bar</span></div>
+                  <div class="map-zone zone-stage"><span>Stage</span></div>
+                  <div class="map-zone zone-vip"><span>VIP Area</span></div>
+                  <div class="map-zone zone-hospitality"><span>Hospitality</span></div>
+                  <div class="map-zone zone-pickup"><span>Pickup</span></div>
+                  <div class="map-zone zone-merch"><span>Merch</span></div>
+
+                  <svg class="route-svg" viewBox="0 0 720 460" aria-hidden="true">
+                    <path class="route-line route-outer" d="M180 132 C250 60, 455 60, 534 138 C618 222, 536 354, 365 354 C210 354, 125 250, 180 132"></path>
+                    <path class="route-line route-inner" d="M214 178 C274 105, 442 102, 503 178 C570 265, 486 324, 360 324 C236 324, 161 258, 214 178"></path>
+                  </svg>
+
+                  <span class="pin pin-1"></span>
+                  <span class="pin pin-2"></span>
+                  <span class="pin pin-3"></span>
+                  <span class="pin pin-4"></span>
+                  <span class="pin pin-5"></span>
+                  <span class="pin pin-6"></span>
+                  <span class="pin pin-7"></span>
+                  <span class="pin pin-8"></span>
+                  <span class="pin pin-9"></span>
+
+                  <div class="mobile-map-legend">
+                    <h3>Legend</h3>
+                    <div class="legend-grid">
+                      <span><i class="food"></i>Food Court</span>
+                      <span><i class="bar"></i>Bar</span>
+                      <span><i class="hospitality"></i>Hospitality</span>
+                      <span><i class="vip"></i>VIP</span>
+                      <span><i class="merch"></i>Merch</span>
+                      <span><i class="pickup"></i>Pickup</span>
+                      <span><i class="poi"></i>Point of interest</span>
+                      <span><i class="route-sample"></i>Recommended route</span>
+                    </div>
+                  </div>
+                </div>
+
+                <aside class="map-legend" aria-label="Legend">
+                  <h3>Legend</h3>
+                  <ul>
+                    <li><i class="food"></i>Food Court</li>
+                    <li><i class="bar"></i>Bar</li>
+                    <li><i class="hospitality"></i>Hospitality</li>
+                    <li><i class="vip"></i>VIP</li>
+                    <li><i class="merch"></i>Merch</li>
+                    <li><i class="pickup"></i>Pickup / Collection</li>
+                    <li><i class="poi"></i>Point of interest</li>
+                    <li><i class="route-sample"></i>Recommended route</li>
+                  </ul>
+                </aside>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Who -->
+    <section id="who" class="section section-compact">
+      <div class="container">
+        <div class="section-head text-center mx-auto reveal">
+          <div class="eyebrow">Who it's for</div>
+          <h2 class="split-reveal">Designed for events where every minute of queueing costs revenue.</h2>
+          <p>Orlay Pay is suitable for contexts with high audience density, multiple service points, and demand concentrated in short windows.</p>
+        </div>
+
+        <div class="chips reveal delay-2">
+          <span>Festivals</span>
+          <span>Concerts</span>
+          <span>Stadiums and Arenas</span>
+          <span>Food Courts</span>
+          <span>Hospitality</span>
+          <span>VIP Areas</span>
+          <span>Merchandising</span>
+          <span>Corporate Events</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Analytics -->
+    <section id="analytics" class="section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <div class="eyebrow reveal">Analytics and Post-Event</div>
+            <h2 class="split-reveal">The value doesn't end at the end of the evening.</h2>
+            <p class="section-copy reveal delay-2">Understand what converts, what slows down, and where demand is lost. Use data to improve pricing, staffing, layout, and offerings for your next event.</p>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="analytics-wrap">
+              <div class="row g-3 stagger-group">
+                <div class="col-sm-6">
+                  <article class="analytics-card reveal">
+                    <span>01</span>
+                    <h3>Performance by area</h3>
+                    <p>Which areas are selling and which are slowing down.</p>
+                  </article>
+                </div>
+                <div class="col-sm-6">
+                  <article class="analytics-card reveal">
+                    <span>02</span>
+                    <h3>Real Peaks</h3>
+                    <p>When demand really grows.</p>
+                  </article>
+                </div>
+                <div class="col-sm-6">
+                  <article class="analytics-card reveal">
+                    <span>03</span>
+                    <h3>Product mix</h3>
+                    <p>What gets chosen, what gets left behind.</p>
+                  </article>
+                </div>
+                <div class="col-sm-6">
+                  <article class="analytics-card reveal">
+                    <span>04</span>
+                    <h3>Better decisions</h3>
+                    <p>Fewer perceptions, more operational evidence.</p>
+                  </article>
+                </div>
+              </div>
+
+              <div class="analytics-board reveal delay-3">
+                <div class="board-head">
+                  <strong>Post-event area performance</strong>
+                  <small>Revenue share</small>
+                </div>
+                <div class="bar-chart">
+                  <div><i style="height:55%"></i><span>Food</span></div>
+                  <div><i style="height:76%"></i><span>Bar</span></div>
+                  <div><i style="height:88%"></i><span>VIP</span></div>
+                  <div><i style="height:71%"></i><span>Pickup</span></div>
+                  <div><i style="height:49%"></i><span>Merch</span></div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="demo" class="section section-cta">
+      <div class="container">
+        <div class="cta-panel">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <div class="eyebrow eyebrow-dark reveal">Final CTA</div>
+              <h2 class="split-reveal">Want to understand where your event is losing sales?</h2>
+              <p class="cta-copy reveal delay-2">Book a demo: together we'll analyze flows, bar locations, critical areas, and revenue opportunities.</p>
+              <ul class="cta-list reveal delay-3">
+                <li>Flow review for high-density service points</li>
+                <li>Critical area and queue bottleneck analysis</li>
+                <li>Revenue opportunity discussion</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-7">
+              <form class="demo-form reveal delay-2" id="demoForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name">Name</label>
+                    <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required>
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="company">Company/venue</label>
+                    <input class="form-control" id="company" name="company" type="text" placeholder="Company or venue" required>
+                    <div class="invalid-feedback">Please enter your company or venue.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="eventType">Event type</label>
+                    <select class="form-select" id="eventType" name="eventType" required>
+                      <option value="">Select option</option>
+                      <option>Festival</option>
+                      <option>Concert</option>
+                      <option>Stadium or Arena</option>
+                      <option>Food Court</option>
+                      <option>Hospitality</option>
+                      <option>VIP Area</option>
+                      <option>Merchandising</option>
+                      <option>Corporate Event</option>
+                    </select>
+                    <div class="invalid-feedback">Please select an event type.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required>
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="phone">Phone</label>
+                    <input class="form-control" id="phone" name="phone" type="tel" placeholder="+39..." required>
+                    <div class="invalid-feedback">Please enter your phone number.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="message">Optional message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your event..."></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary btn-lg w-100 magnetic">Request a demo</button>
+                    <p class="privacy-note">We'll only contact you to evaluate the Orlay Pay Plus project.</p>
+                    <div class="success-message" role="status" aria-live="polite">Thank you. Your demo request is ready to be connected to your form endpoint.</div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+      <img src="assets/orlay-logo.png" alt="Orlay Pay" class="footer-logo">
+      <p class="mb-0">© 2025 Orlay Pay. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
